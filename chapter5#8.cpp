@@ -52,15 +52,22 @@ unsigned fp(char v[])
 
 int main(int argc, char **argv)
 {
-    char s[1024];
-    for(int c = 0; c<1023; ++c)
+    char s[65401];
+    for(int c = 0; c<65400; ++c)
     {
         s[c] = 'A';
     }
+    clock_t ts = clock();
     unsigned result_fi = fi(s);
+    clock_t tfi = clock();
     unsigned result_fp = fp(s);
-    cout << "result_fi = " << result_fi << ", result_fp = " << result_fp;
-
+    clock_t tfp = clock();
+    cout << "result_fi = " << result_fi << ", result_fp = " << result_fp << '\n';
+    cout << "Index way of reading csting took "
+    << double(tfi-ts)/CLOCKS_PER_SEC << "seconds \n"
+    << " (measurement granularity: " << CLOCKS_PER_SEC << " of a second);\n";
+    cout << "pointer way of reading csting took "
+    << double(tfp-tfi)/CLOCKS_PER_SEC << "seconds.\n";
     return 0;
 }
 
