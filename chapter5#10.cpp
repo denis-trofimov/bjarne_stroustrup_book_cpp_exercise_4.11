@@ -1,5 +1,5 @@
 /*
- * chapter5#7.cpp
+ * chapter5#10.cpp
  *
  * Copyright 2017 Denis Trofimov <silaradost@yandex.ru>
  *
@@ -25,7 +25,7 @@
 
 #include <iostream>
 #include <cstdio>
-#include <cstring>
+
 
 using namespace std;
 
