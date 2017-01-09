@@ -33,8 +33,8 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    //two array way
-    char month_name[][10] = {"January", "February", "March", "April", "May", ""
+    //cstring array of char pointers
+    const char* month_name[] = {"January", "February", "March", "April", "May", ""
     "June", "July", "August", "September", "October", "November", "December"};
     int month_days[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
@@ -59,7 +59,7 @@ int main(int argc, char **argv)
     for(int i=0; i<12; ++i)
     {
         //init
-        months[i].name = month_name[i];
+        months[i].name = (char*)(month_name[i]);
         months[i].days = month_days[i];
         //print. %-9s is left aligned space dashed 9 symbol cstring
         //%9i is right aligned space dashed 9 symbol int
