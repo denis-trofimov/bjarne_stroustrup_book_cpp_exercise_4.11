@@ -57,34 +57,6 @@ int main(int argc, char **argv)
     cout << '\n' << "*factor5_p_to_const = " << *factor5_p_to_const << '\t';
     int* const const_pointer = &array[8];
     cout << '\n' << "*const_pointer = " << *const_pointer << '\t';
-
-    /*
-    * 2. (*1.5) Каковы на вашей системе ограничения на значения указателей типа
-    char*, int* и void*? Например, может ли int* иметь нечетное значение
-    (подсказка: подумайте о выравнивании)?
-    */
-    cout << "\n2.\nAdress difference for closest int* = " << abs((long)&array[1] - (long)&array[0]);
-    cout << ",\n adresses respectively are {0,1} : "<< &array[0] << ", " << &array[1];
-
-<<<<<<< HEAD
-    char (*pa)[8];
-    char cstring[8] = "ab";
-=======
-    char (*pa)[3];
-    char cstring[3] = "ab";
->>>>>>> 7e878e3ae2ff05d87316c4884c60601602ed9851
-    pa = &cstring;
-    cout << ",\nadress difference for closest char* = " << abs(reinterpret_cast<long>(&pa[1]) - reinterpret_cast<long>(&pa[0]));
-    cout << ",\n adresses respectively are {0,1}: " << &pa[0] << ", " <<  &pa[1];
-    cout << ",\nadress difference for next closest char* = " << abs(reinterpret_cast<long>(&pa[2]) - reinterpret_cast<long>(&pa[1]));
-    cout << ",\n adresses respectively are {0,1}: " << &pa[1] << ", " <<  &pa[2];
-
-    void* vp0, * vp1;
-    //is char smallest?
-    vp0 = pa[0];
-    vp1 = pa[1];
-    cout << ",\nadress difference for closest void* = " << abs(reinterpret_cast<long>(&vp1) - reinterpret_cast<long>(&vp0));
-    cout << ",\n adresses respectively are {0,1}: " << &vp0 << ", " <<  &vp1;
     return 0;
 }
 
