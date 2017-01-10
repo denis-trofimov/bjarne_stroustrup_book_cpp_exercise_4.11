@@ -66,8 +66,13 @@ int main(int argc, char **argv)
     cout << "\n2.\nAdress difference for closest int* = " << abs((long)&array[1] - (long)&array[0]);
     cout << ",\n adresses respectively are {0,1} : "<< &array[0] << ", " << &array[1];
 
+<<<<<<< HEAD
     char (*pa)[8];
     char cstring[8] = "ab";
+=======
+    char (*pa)[3];
+    char cstring[3] = "ab";
+>>>>>>> 7e878e3ae2ff05d87316c4884c60601602ed9851
     pa = &cstring;
     cout << ",\nadress difference for closest char* = " << abs(reinterpret_cast<long>(&pa[1]) - reinterpret_cast<long>(&pa[0]));
     cout << ",\n adresses respectively are {0,1}: " << &pa[0] << ", " <<  &pa[1];
