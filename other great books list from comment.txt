@@ -1,0 +1,25 @@
+Well, C++ is an intensive "No fluff, just stuff" language. It may very well be the lingua franca of OO languages. Not sure if Ada/Smalltalk come close but C++ is a language of the Pundit programmer (Along with Lisp). If you want a less intensive workout but still get a whiff of the languages' elegance, check out Bjarne's other book "Programming: Principles and Practice Using C++". It is a meaty tome but is more distilled but very well done. This book is for programmers and not for people who wish a gentle introduction. That other book of his is more gentle, much more gentle. People usually give up the language and head for Java, as life is much simpler. But if you try coming in from Java and do C++, you may do Java better :-) (and like it less depending on who you are), or at least get a frequent "Aha" moment on why Java does it the way it does. I'd get the book and definitely keep it. I believe, as you do, that languages evolve and C++ with C and Java will be languages from which things will evolve. C++ is to OOP like Sanskrit is to Indo-European languages. Expressive, syntactic, difficult, large and timeless. Stoustrup is to C++ like Panini (I don't mean the sandwich bread) was to Sanskrit.
+
+
+
+Other great C++ (or programming) books are (that would make a great library too)
+
+a. C++ Primer by Stan Lippman
+
+b. Essential C++ by Stan Lippman - Very well written and surprisingly slim considering his other book. Introduces some aspects of STL early on. Rightly so, he prefers vectors to arrays and so on.
+
+c. Accelarated C++ by Koenig and Moo - Great stuff in here
+
+d. Programming: Principles and Practice Using C++ by Stoustrup
+
+e. Elements of Programming by Alexander Stepanov (Hard! Hard!!, Hard!!!)
+
+f. Ruminations of C++ by Koenig
+
+g. If you want reasons why, then "The Design and Evolution of C++ " by Stoustrup
+
+h. Design Principles by GoF - Good fun read
+
+i. Object oriented analysis and design by Booch and Co. (My absolute favorite fireside book to read on Programming)
+
+j. Headfirst OO - Its fun and un-harmful. These guys have a great formula that works. Sometimes annoying when they bring pizzas into the argument (and makes you head to the kitchen)
