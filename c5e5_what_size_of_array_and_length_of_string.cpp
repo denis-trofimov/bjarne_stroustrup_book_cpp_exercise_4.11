@@ -1,4 +1,7 @@
 /*
+ * 5. (∗1.5) What is the size of the array str the following example:
+ *  char str[] = "a short string";
+ * What is the length of the string "a short string"?
  * chapter5#5.cpp
  *
  * Copyright 2017 Denis Trofimov <silaradost@yandex.ru>

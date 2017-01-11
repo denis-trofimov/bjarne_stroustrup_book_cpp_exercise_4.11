@@ -3,6 +3,11 @@
  *
  * Copyright 2017 Denis Trofimov <silaradost@yandex.ru>
  *
+ * 1. (∗1) Write declarations for the following: a pointer to a character, an array of 10 integers, a ref-
+erence to an array of 10 integers, a pointer to an array of character strings, a pointer to a pointer
+to a character, a constant integer, a pointer to a constant integer, and a constant pointer to an
+integer. Initialize each one.
+*
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or

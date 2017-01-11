@@ -1,5 +1,9 @@
 /*
- * chapter5#6.cpp
+ *
+ * 6. (∗1) Define functions f f(c ch ha ar r), g g(c ch ha ar r&), and h h(c co on ns st t c ch ha ar r&). Call them with the arguments
+ ́a a ́, 4 49 9, 3 33 30 00 0, c c, u uc c, and s sc c, where c is a c ch ha ar r, u uc c is an u un ns si ig gn ne ed d c ch ha ar r, and s sc c is a s si ig gn ne ed d
+c ch ha ar r. Which calls are legal? Which calls cause the compiler to introduce a temporary variable?
+* chapter5#6.cpp
  *
  * Copyright 2017 Denis Trofimov <silaradost@yandex.ru>
  *

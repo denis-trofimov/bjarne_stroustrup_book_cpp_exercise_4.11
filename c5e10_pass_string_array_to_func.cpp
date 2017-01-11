@@ -1,4 +1,7 @@
 /*
+ * 10. (∗1) Define an array of strings in which the strings contain the names
+ *  of the months. Print those strings.
+ * Pass the array to a function that prints those strings.
  * chapter5#10.cpp
  *
  * Copyright 2017 Denis Trofimov <silaradost@yandex.ru>
@@ -41,7 +44,7 @@ int print_months(const string* m, const int* d)
     return 0;
 }
 
-int print_months_c(const char** m, const int* d)
+int print_months(const char** m, const int* d)
 {
     cout << "|===================|\n|Month    |Days     |\n|---------|--------"
     "-|\n";
@@ -61,9 +64,10 @@ int main(int argc, char **argv)
     int month_days[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     print_months(month_name, month_days);
 
-    //cstring array of char pointers
-    const char* month_names_c[] = {"January", "February", "March", "April", "May", ""
-    "June", "July", "August", "September", "October", "November", "December"};
-    return print_months_c(month_names_c, month_days);
+    //cstring way
+    const char* month_names_c[] = {"January", "February", "March", "April",
+    "May", "June", "July", "August", "September", "October", "November",
+    "December"};
+    return print_months(month_names_c, month_days);
 }
 

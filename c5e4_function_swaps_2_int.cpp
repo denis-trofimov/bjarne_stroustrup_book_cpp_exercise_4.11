@@ -1,8 +1,11 @@
 /*
+ *4. (∗1) Write a function that swaps (exchanges the values of) two integers.
+ *  Use i in nt t* as the argument type.
+ * Write another swap function using i in nt t& as the argument type.
  * chapter5#4.cpp
  *
  * Copyright 2017 Denis Trofimov <silaradost@yandex.ru>
- *
+
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or

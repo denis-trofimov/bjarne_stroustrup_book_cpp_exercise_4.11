@@ -3,6 +3,10 @@
  *
  * Copyright 2017 Denis Trofimov <silaradost@yandex.ru>
  *
+ * 3. (∗1) Use t ty yp pe ed de ef f to define the types u un ns si ig gn ne ed d c ch ha ar r, c co on ns st t u un ns si ig gn ne ed d c ch ha ar r, pointer to integer,
+pointer to pointer to c ch ha ar r, pointer to arrays of c ch ha ar r, array of 7 pointers to i in nt t, pointer to an array
+of 7 pointers to i in nt t, and array of 8 arrays of 7 pointers to i in nt t.
+*
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or

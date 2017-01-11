@@ -1,4 +1,8 @@
 /*
+ * (∗2) Read a sequence of words from input. Use Q
+Qu ui it t as a word that terminates the input. Print
+the words in the order they were entered. Don’t print a word twice. Modify the program to sort
+the words before printing them.
  * chapter5#11.cpp
  *
  * Copyright 2017 Denis Trofimov <silaradost@yandex.ru>
